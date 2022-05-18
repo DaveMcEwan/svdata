@@ -32,21 +32,18 @@ pub enum SvPortDirection {
     Input,
     Output,
     Ref,
-    IMPLICIT,
 }
 
 #[derive(Debug, Serialize, Clone)]
 pub enum SvDataKind {
     Net,
     Variable,
-    IMPLICIT,
 }
 
 #[derive(Debug, Serialize, Clone)]
 pub enum SvSignedness {
     Signed,
     Unsigned,
-    IMPLICIT,
 }
 
 #[derive(Debug, Serialize, Clone)]
@@ -70,7 +67,6 @@ pub enum SvDataType {
     Class,
     TypeRef,
     String,
-    IMPLICIT,
 }
 
 #[derive(Debug, Serialize, Clone)]
@@ -87,7 +83,6 @@ pub enum SvNetType {
     Tri1,
     Supply0,
     Supply1,
-    IMPLICIT,
 }
 
 #[derive(Debug, Serialize, Clone)]

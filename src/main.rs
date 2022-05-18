@@ -487,8 +487,6 @@ fn port_nettype_ansi(
                     structures::SvPortDirection::Ref => {
                         return None;
                     }
-
-                    _ => unreachable!(),
                 },
             }
         }
